@@ -8,13 +8,15 @@ import Language from './Languaage'
 class Resume extends Component {
     render() {
         return (
-            <div>
+            <div className="container-fluid">
+              <div className="row">
+              <div className="col-sm-12">
                 <Grid>
                     <Cell col={4}>
                         <div style ={{textAlign:'center'}}>
                         <img src="/Images/olanrewaju.JPG" 
                        alt="avatar" 
-                       className="avatar-img" style={{height: '250px'}}/>
+                       className="avatar-img" style={{height: '250px', borderRadius:'50%'}}/>
                         </div>
 
                         <h2 style={{paddingTop:'2em'}}>Sanni Abdullateef</h2>
@@ -25,7 +27,7 @@ class Resume extends Component {
                            Well-versed in Programming Language like <br/> HTML, CSS, BOOTSTRAP, JAVASCRIPT and ReactJS.</p>
                      <hr style={{borderTop:'3px solid #833fb2', width: '50%'}}/>
                      <h5>Address</h5>
-                     <p>No 2, Lala Street, Off Lamination, Ipaja Ayobo, Lagos State</p>
+                     <p> Ipaja Ayobo, Lagos State</p>
                      <h5>Phone</h5>
                      <p>[+234] 903-1259-895</p>
                      <h5>Email</h5>
@@ -161,6 +163,8 @@ class Resume extends Component {
 
                     </Cell>
                 </Grid>
+                </div>
+                </div>
             </div>
         )
     }

@@ -13,7 +13,7 @@ class Project extends Component {
             return (
                 <div className="html-project">
                     {/* Project 1 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red ', height:'176px', background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbkNTVQglAWSt6YatnNq_VdmsyeFJjSbFmplyBTu8w2KCfNiUJ) center / cover'}}>
                         HTML/CSS Project
                     </CardTitle>
@@ -29,7 +29,7 @@ class Project extends Component {
                 </Card>
 
                 {/* Project 2 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red ', height:'176px', background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbkNTVQglAWSt6YatnNq_VdmsyeFJjSbFmplyBTu8w2KCfNiUJ) center / cover'}}>
                         HTML/CSS Project
                     </CardTitle>
@@ -45,7 +45,7 @@ class Project extends Component {
                 </Card>
 
                 {/* Project 3 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red ', height:'176px', background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbkNTVQglAWSt6YatnNq_VdmsyeFJjSbFmplyBTu8w2KCfNiUJ) center / cover'}}>
                         HTML/CSS Project
                     </CardTitle>
@@ -61,7 +61,7 @@ class Project extends Component {
                 </Card>
 
                 {/* Project 4 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red ', height:'176px', background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbkNTVQglAWSt6YatnNq_VdmsyeFJjSbFmplyBTu8w2KCfNiUJ) center / cover'}}>
                         HTML/CSS Project
                     </CardTitle>
@@ -80,7 +80,7 @@ class Project extends Component {
         } else if (this.state.activeTab === 1) {
             return (
                 <div className="html-project">
-                   <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                   <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png) center / cover'}}>
                         BootStrap Project
                     </CardTitle>
@@ -95,7 +95,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                 <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png) center / cover'}}>
                         BootStrap Project
                     </CardTitle>
@@ -110,7 +110,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                 <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png) center / cover'}}>
                         BootStrap Project
                     </CardTitle>
@@ -125,7 +125,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                 <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png) center / cover'}}>
                         BootStrap Project
                     </CardTitle>
@@ -145,7 +145,7 @@ class Project extends Component {
         } else if (this.state.activeTab === 2) {
             return (
                 <div className="html-project">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://www.w3schools.com/whatis/img_js.png) center / cover'}}>
                         JavaScript Project
                     </CardTitle>
@@ -160,7 +160,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://www.w3schools.com/whatis/img_js.png) center / cover'}}>
                         JavaScript Project
                     </CardTitle>
@@ -175,7 +175,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://www.w3schools.com/whatis/img_js.png) center / cover'}}>
                         JavaScript Project
                     </CardTitle>
@@ -190,7 +190,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://www.w3schools.com/whatis/img_js.png) center / cover'}}>
                         JavaScript Project
                     </CardTitle>
@@ -209,7 +209,7 @@ class Project extends Component {
         } else if (this.state.activeTab === 3) {
             return (
                <div className="html-project">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/236/landscape/svelte-logo-vertical.png) center / cover'}}>
                         Svelte Project
                     </CardTitle>
@@ -224,7 +224,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/236/landscape/svelte-logo-vertical.png) center / cover'}}>
                         Svelte Project
                     </CardTitle>
@@ -239,7 +239,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/236/landscape/svelte-logo-vertical.png) center / cover'}}>
                         Svelte Project
                     </CardTitle>
@@ -254,7 +254,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'red', height:'176px', background:'url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/236/landscape/svelte-logo-vertical.png) center / cover'}}>
                         Svelte Project
                     </CardTitle>
@@ -273,7 +273,7 @@ class Project extends Component {
         } else if (this.state.activeTab === 4) {
             return (
                 <div className="html-project">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'Red', height:'176px', background:'url(https://reactjs.org/logo-og.png) center / cover'}}>
                         React Project
                     </CardTitle>
@@ -288,7 +288,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'Red', height:'176px', background:'url(https://reactjs.org/logo-og.png) center / cover'}}>
                         React Project
                     </CardTitle>
@@ -303,7 +303,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'Red', height:'176px', background:'url(https://reactjs.org/logo-og.png) center / cover'}}>
                         React Project
                     </CardTitle>
@@ -318,7 +318,7 @@ class Project extends Component {
                     </CardMenu>
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '18rem', margin: 'auto'}}>
                     <CardTitle style={{color:'Red', height:'176px', background:'url(https://reactjs.org/logo-og.png) center / cover'}}>
                         React Project
                     </CardTitle>
@@ -338,7 +338,7 @@ class Project extends Component {
     } 
     render() {
         return (
-            <div className="category-tabs">
+            <div className="container-fluid category-tabs">
                 <Tabs activeTab= {this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab>HTML/CSS</Tab>
                     <Tab>BootStrap</Tab>

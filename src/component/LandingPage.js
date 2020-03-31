@@ -4,13 +4,13 @@ import { Grid, Cell } from 'react-mdl'
 
 class LandingPage extends Component {
     render() {
-        return (
+        return (   
             <div style= {{width: '100%', margin: 'auto' }}>
                <Grid className="landing-grid">
                    <Cell col={12}>
                        <img src="/Images/olanrewaju.JPG" 
                        alt="avatar" 
-                       className="avatar-img" style={{height: '250px'}}/>
+                       className="avatar-img" style={{height: '250px', borderRadius:'50%'}}/>
                      <div className="banner-text">
                         <h1>Frontend Developer </h1> 
                         <hr/>
@@ -42,7 +42,7 @@ class LandingPage extends Component {
                          </div>  
                    </Cell>
                </Grid>
-            </div>
+               </div>
         )
     }
 }

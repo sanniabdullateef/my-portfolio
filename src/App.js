@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Layout, Navigation, Drawer, Content, Header } from 'react-mdl';
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import Main from './component/Main';
 import { Link } from 'react-router-dom'
